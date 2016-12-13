@@ -1,0 +1,129 @@
+ 
+/*to size your objects go to http://css-101.org/negative-margin/02.php*/
+#p{  
+  position: absolute;
+    left: 500px;
+    top: 600px;
+    color: #00BDE8;
+
+}
+.enteryoururl {
+ /* float:left;
+  clear:left;
+  width:0%;*/
+  /*padding:1em;*/
+  /*font-size:1em;*/
+  color:#00BDE8;
+  /*float:left;*/
+}
+
+.go{ text-align: center;
+	position: relative;
+  font-family:tk-ff-tisa-web-pro-n7;
+    font-weight:500;
+    font-style:normal;
+ }
+ .hello{text-align: center;
+    position: relative;
+    color:black;
+    font-size: 50px;
+    font-family:'Open Sans', sans-serif;
+ }
+.box {
+  /*float:center;*/
+   width:30%;
+  padding:0.4em;
+  font-size:1em;
+  color:#555;
+}
+
+
+#delete{
+    text-align: center;
+    /*position: relative;*/
+    color:gray;
+
+}
+.show{
+  text-align: center;
+}
+#changeyour{
+    
+    /*position: relative;*/
+      /*margin:0 0 2em;*/
+  text-align:center;
+font-weight:normal;
+font-family: georgia, times;
+font-style:italic;
+  color:#777;
+  font-size:1em;
+}
+
+.theUrlshortUrlclicks{font-size: 15px;
+        text-align: center;
+    color: gray;
+    font-style: italic;
+/*    text-align: center;
+*/    margin-top: 1em;
+}
+ .tables {
+    margin-left:auto; 
+    margin-right:auto;
+  }
+body{
+    /*background-image: url("/img/wallpaper.jpg") ;*/
+/*border-style: dotted;
+*/	/*border-width: 2px;*/
+	/*font-family: 'Coming Soon', cursive;*/
+ /* transition: background 1s ease;*/
+   background: #fff;
+
+
+ /*   background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 200px;
+    background-attachment: fixed;*/
+}
+
+#texter{
+    color:blue;
+}
+
+ 
+.cta {
+  float:left;
+  width:150%;
+   color:#999;
+   margin:2em ;
+}
+ 
+
+.topdeco {
+  float:left;
+  width:100%;
+  height:70px;
+  position:fixed;
+  z-index:10;
+}
+
+.topdeco span {
+  float:left;
+  width:25%;
+  height:40%;
+}
+
+.deco span:nth-child(1) {
+  background:#FF8220;
+}
+.deco span:nth-child(2) {
+  background:#000;
+}
+.deco span:nth-child(3) {
+  background:#FFA00A;
+}
+.deco span:nth-child(4) {
+  background:#00BDE8;
+}
+ div{margin-top: -50px;
+margin-left: -8px;
+ }
