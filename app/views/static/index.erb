@@ -1,2 +1,43 @@
-<h1>Hello World</h1>
-<p>See Me in views/static/index.html.erb</p>
+<div class="deco topdeco">
+  <span></span>
+  <span></span>
+  <span></span>
+  <span></span>
+  </div>
+
+<h1 class="hello">Url Site</h1>
+<p id="changeyour"><b>Change Your Site To The Short ONE!!!</p>
+ 
+<form class="go" action="/url" method="post">
+<lable class="enteryoururl">Enter URL:</lable>
+<input type="text" name="main_url" placeholder="Your Url Please" class="box">
+<input type="submit" name="Submit" value=" Do it !">
+</form>
+
+<form  action="/del" method="post" id="delete">
+<input type="submit"  value="Delete Data" >
+</form>  
+
+<form class="show" action="/" method="get" id="view">
+<input type="submit" value="show all the data">
+</form>
+
+<pre class ='theUrlshortUrlclicks'><b> The Url       ShortUrl      Clicks</pre>
+
+<table class="tables">
+<% @URL.each do |url| %>
+<tr>
+ <!-- <td> <%= url.id %></td> -->
+  <td><a href = <%= url.main_url %> ><%= url.main_url %></a></td>
+  <td class ="shorturl"><a target="_blank" href = <%= url.converted_url %> ><%= url.converted_url %></a></td>
+    <td id ="texter"> <%= url.click_count %></td>
+</tr>
+<%end%>
+</table>
+
+<div id="q"></div>
+
+
+
+<P id="p">All Right Reserved//Nabil.Alsouhily</P>
+
